@@ -4,6 +4,31 @@
     background-color: gainsboro;
 }
 
+.back_img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    /* background-image: url("../static/img/beauty.png");  */
+    opacity: 0.9;
+    /* background-repeat: no-repeat;
+    background-position: center center; */
+    transform: translateX(-50%);
+
+}
+
+.last_index{
+    z-index: 999;
+}
+
+body:last-child{
+    color: black;
+}
+
+.back_img img{
+    width: 400px;
+    height: auto;
+}
 audio {
     border-radius: 10px;
 }
