@@ -9,11 +9,11 @@ audio {
 }
 .music_center{
     margin: auto;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: darkcyan;
-   
     height: 100px;
     width: 400px;
 }
